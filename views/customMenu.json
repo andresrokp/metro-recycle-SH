@@ -1,0 +1,92 @@
+{
+  "disabledMenuItems": [
+    "login_white_labeling",
+    "asset_groups",
+    "device_groups",
+    "edge_groups",
+    "dashboard_groups",
+    "scheduler",
+    "audit_log",
+    "customer_groups",
+    "roles",
+    "widget_library",
+    "customers_hierarchy",
+    "rule_chains",
+    "converters",
+    "home",
+    "integrations",
+    "entity_view_groups",
+    "mail_server",
+    "mail_templates",
+    "custom_translation",
+    "self_registration",
+    "settings",
+    "settings_applications",
+    "white_labeling",
+    "custom_menu",
+    "home_settings"
+  ],
+  "menuItems": [
+    {
+      "name": "GSE",
+      "iconUrl": null,
+      "materialIcon": "agriculture",
+      "iframeUrl": null,
+      "dashboardId": "d302c2c0-e455-11ed-9b83-e14509358390",
+      "hideDashboardToolbar": false,
+      "setAccessToken": false,
+      "childMenuItems": []
+    },
+    {
+      "name": "Planning",
+      "iconUrl": null,
+      "materialIcon": "connecting_airports",
+      "iframeUrl": null,
+      "dashboardId": "9937d240-bc3e-11ed-9b83-e14509358390",
+      "hideDashboardToolbar": false,
+      "setAccessToken": false,
+      "childMenuItems": [
+        {
+          "name": "Flihgts Timeline",
+          "iconUrl": null,
+          "materialIcon": "timer",
+          "iframeUrl": null,
+          "dashboardId": "c7c456b0-b450-11ed-9b83-e14509358390",
+          "hideDashboardToolbar": false,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
+        {
+          "name": "Scheduler",
+          "iconUrl": null,
+          "materialIcon": "calendar_month",
+          "iframeUrl": null,
+          "dashboardId": "c2521db0-b64a-11ed-9b83-e14509358390",
+          "hideDashboardToolbar": false,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
+        {
+          "name": "History",
+          "iconUrl": null,
+          "materialIcon": "restore",
+          "iframeUrl": null,
+          "dashboardId": "502652e0-31f9-11ed-ae4f-9f91fb4ef85d",
+          "hideDashboardToolbar": false,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
+        {
+          "name": "Weather",
+          "iconUrl": null,
+          "materialIcon": "thunderstorm",
+          "iframeUrl": "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=radar&lat=4.6970&lon=-74.0887&zoom=5",
+          "dashboardId": null,
+          "hideDashboardToolbar": false,
+          "setAccessToken": false,
+          "childMenuItems": []
+        }
+      ]
+    }
+  ]
+}
