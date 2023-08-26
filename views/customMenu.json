@@ -11,7 +11,7 @@
     "customers_hierarchy",
     "rule_chains",
     "converters",
-    "home",
+    "notifications_center",
     "integrations",
     "entity_view_groups",
     "white_labeling",
@@ -35,27 +35,37 @@
       "iconUrl": null,
       "materialIcon": "description",
       "iframeUrl": null,
-      "dashboardId": "",
-      "hideDashboardToolbar": false,
+      "dashboardId": "cefe2940-4101-11ee-9a5a-27a2b74c1c5f",
+      "hideDashboardToolbar": true,
       "setAccessToken": false,
       "childMenuItems": [
+        {
+          "name": "Residuos Aprovechables",
+          "iconUrl": null,
+          "materialIcon": "recycling",
+          "iframeUrl": null,
+          "dashboardId": "0ce31a70-413b-11ee-9a5a-27a2b74c1c5f",
+          "hideDashboardToolbar": true,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
+        {
+          "name": "Residuos NO Aprovechables",
+          "iconUrl": null,
+          "materialIcon": "delete",
+          "iframeUrl": null,
+          "dashboardId": "7d8c6bc0-4139-11ee-9a5a-27a2b74c1c5f",
+          "hideDashboardToolbar": true,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
         {
           "name": "Residuos Peligrosos",
           "iconUrl": null,
           "materialIcon": "dangerous",
           "iframeUrl": null,
           "dashboardId": "a24b4690-24ef-11ee-9bab-f10f15570bc5",
-          "hideDashboardToolbar": false,
-          "setAccessToken": false,
-          "childMenuItems": []
-        },
-        {
-          "name": "Residuos Aprovechables",
-          "iconUrl": null,
-          "materialIcon": "recycling",
-          "iframeUrl": null,
-          "dashboardId": "",
-          "hideDashboardToolbar": false,
+          "hideDashboardToolbar": true,
           "setAccessToken": false,
           "childMenuItems": []
         }
@@ -66,26 +76,36 @@
       "iconUrl": null,
       "materialIcon": "manage_search",
       "iframeUrl": null,
-      "dashboardId": "",
-      "hideDashboardToolbar": false,
+      "dashboardId": "c7645c40-4101-11ee-9a5a-27a2b74c1c5f",
+      "hideDashboardToolbar": true,
       "setAccessToken": false,
       "childMenuItems": [
+        {
+          "name": "Residuos Aprovechables",
+          "iconUrl": null,
+          "materialIcon": "recycling",
+          "iframeUrl": null,
+          "dashboardId": "11f4dd00-413b-11ee-9a5a-27a2b74c1c5f",
+          "hideDashboardToolbar": false,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
+        {
+          "name": "Residuos NO Aprovechables",
+          "iconUrl": null,
+          "materialIcon": "delete",
+          "iframeUrl": null,
+          "dashboardId": "8a4cbbd0-4139-11ee-9a5a-27a2b74c1c5f",
+          "hideDashboardToolbar": false,
+          "setAccessToken": false,
+          "childMenuItems": []
+        },
         {
           "name": "Residuos Peligrosos",
           "iconUrl": null,
           "materialIcon": "dangerous",
           "iframeUrl": null,
           "dashboardId": "4e5e2430-25a8-11ee-9bab-f10f15570bc5",
-          "hideDashboardToolbar": false,
-          "setAccessToken": false,
-          "childMenuItems": []
-        },
-        {
-          "name": "Residuos Aprovechables",
-          "iconUrl": null,
-          "materialIcon": "recycling",
-          "iframeUrl": null,
-          "dashboardId": "",
           "hideDashboardToolbar": false,
           "setAccessToken": false,
           "childMenuItems": []
